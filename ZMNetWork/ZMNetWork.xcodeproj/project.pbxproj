@@ -22,7 +22,6 @@
 		A1057EFE1D2D3561004F0798 /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EE41D2D3561004F0798 /* YTKBatchRequestAgent.m */; };
 		A1057EFF1D2D3561004F0798 /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EE61D2D3561004F0798 /* YTKChainRequest.m */; };
 		A1057F001D2D3561004F0798 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EE81D2D3561004F0798 /* YTKChainRequestAgent.m */; };
-		A1057F011D2D3561004F0798 /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EEA1D2D3561004F0798 /* YTKNetworkAgent.m */; };
 		A1057F021D2D3561004F0798 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EEC1D2D3561004F0798 /* YTKNetworkConfig.m */; };
 		A1057F031D2D3561004F0798 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EEE1D2D3561004F0798 /* YTKNetworkPrivate.m */; };
 		A1057F041D2D3561004F0798 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EF01D2D3561004F0798 /* YTKRequest.m */; };
@@ -31,6 +30,7 @@
 		A1057F071D2D3561004F0798 /* ZMBaseRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EF61D2D3561004F0798 /* ZMBaseRequestParam.m */; };
 		A1057F081D2D3561004F0798 /* ZMBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EF81D2D3561004F0798 /* ZMBaseResponse.m */; };
 		A1057F091D2D3561004F0798 /* ZMBaseServerError.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EFA1D2D3561004F0798 /* ZMBaseServerError.m */; };
+		A1090BD11D2DEFFB00C124BF /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1090BD01D2DEFFB00C124BF /* YTKNetworkAgent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,8 +82,6 @@
 		A1057EE61D2D3561004F0798 /* YTKChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequest.m; sourceTree = "<group>"; };
 		A1057EE71D2D3561004F0798 /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequestAgent.h; sourceTree = "<group>"; };
 		A1057EE81D2D3561004F0798 /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequestAgent.m; sourceTree = "<group>"; };
-		A1057EE91D2D3561004F0798 /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
-		A1057EEA1D2D3561004F0798 /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
 		A1057EEB1D2D3561004F0798 /* YTKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkConfig.h; sourceTree = "<group>"; };
 		A1057EEC1D2D3561004F0798 /* YTKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkConfig.m; sourceTree = "<group>"; };
 		A1057EED1D2D3561004F0798 /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkPrivate.h; sourceTree = "<group>"; };
@@ -100,6 +98,8 @@
 		A1057EF81D2D3561004F0798 /* ZMBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMBaseResponse.m; sourceTree = "<group>"; };
 		A1057EF91D2D3561004F0798 /* ZMBaseServerError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMBaseServerError.h; sourceTree = "<group>"; };
 		A1057EFA1D2D3561004F0798 /* ZMBaseServerError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMBaseServerError.m; sourceTree = "<group>"; };
+		A1090BCF1D2DEFFB00C124BF /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
+		A1090BD01D2DEFFB00C124BF /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +240,8 @@
 		A1057EDE1D2D3561004F0798 /* YTKNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				A1090BCF1D2DEFFB00C124BF /* YTKNetworkAgent.h */,
+				A1090BD01D2DEFFB00C124BF /* YTKNetworkAgent.m */,
 				A1057EDF1D2D3561004F0798 /* YTKBaseRequest.h */,
 				A1057EE01D2D3561004F0798 /* YTKBaseRequest.m */,
 				A1057EE11D2D3561004F0798 /* YTKBatchRequest.h */,
@@ -250,8 +252,6 @@
 				A1057EE61D2D3561004F0798 /* YTKChainRequest.m */,
 				A1057EE71D2D3561004F0798 /* YTKChainRequestAgent.h */,
 				A1057EE81D2D3561004F0798 /* YTKChainRequestAgent.m */,
-				A1057EE91D2D3561004F0798 /* YTKNetworkAgent.h */,
-				A1057EEA1D2D3561004F0798 /* YTKNetworkAgent.m */,
 				A1057EEB1D2D3561004F0798 /* YTKNetworkConfig.h */,
 				A1057EEC1D2D3561004F0798 /* YTKNetworkConfig.m */,
 				A1057EED1D2D3561004F0798 /* YTKNetworkPrivate.h */,
@@ -453,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1057EFF1D2D3561004F0798 /* YTKChainRequest.m in Sources */,
+				A1090BD11D2DEFFB00C124BF /* YTKNetworkAgent.m in Sources */,
 				A1057F001D2D3561004F0798 /* YTKChainRequestAgent.m in Sources */,
 				A1057F021D2D3561004F0798 /* YTKNetworkConfig.m in Sources */,
 				A1057E721D2D323A004F0798 /* ViewController.m in Sources */,
@@ -469,7 +470,6 @@
 				A1057F071D2D3561004F0798 /* ZMBaseRequestParam.m in Sources */,
 				A1057E6C1D2D323A004F0798 /* main.m in Sources */,
 				A1057F041D2D3561004F0798 /* YTKRequest.m in Sources */,
-				A1057F011D2D3561004F0798 /* YTKNetworkAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
