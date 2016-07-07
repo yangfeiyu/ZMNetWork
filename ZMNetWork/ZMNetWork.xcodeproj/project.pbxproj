@@ -100,6 +100,7 @@
 		A1090BE21D2DF3D300C124BF /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
 		A1090BE31D2DF3D300C124BF /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
 		A1090BE41D2DF3D300C124BF /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
+		A1090BF31D2E053500C124BF /* ZMNetWorkHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMNetWorkHeaders.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +217,7 @@
 				A1057EFA1D2D3561004F0798 /* ZMBaseServerError.m */,
 				A1057EF11D2D3561004F0798 /* ZMBaseApi.h */,
 				A1057EF21D2D3561004F0798 /* ZMBaseApi.m */,
+				A1090BF31D2E053500C124BF /* ZMNetWorkHeaders.h */,
 			);
 			path = ZMServer;
 			sourceTree = "<group>";
