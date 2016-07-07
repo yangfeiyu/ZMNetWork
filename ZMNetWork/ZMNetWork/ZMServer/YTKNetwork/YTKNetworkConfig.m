@@ -42,6 +42,7 @@
     if (self) {
         _urlFilters = [NSMutableArray array];
         _cacheDirPathFilters = [NSMutableArray array];
+        _requestLogEnable = NO;
     }
     return self;
 }

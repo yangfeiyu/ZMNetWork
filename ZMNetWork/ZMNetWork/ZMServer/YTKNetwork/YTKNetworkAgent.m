@@ -285,7 +285,7 @@
         }
     }
     // 打印请求结果，方便调试
-    if (YES) {
+    if ([YTKNetworkConfig sharedInstance].requestLogEnable) {
         if ([requestMethod isEqualToString:@"Get"]) {
             NSLog(@"Finished request: %@ - Method:%@ - Arguments:%@ - Response:%@", [YTKNetworkPrivate urlStringWithOriginUrlString:[self buildRequestUrl:request] appendParameters:request.requestArgument], requestMethod, request.requestArgument, request.responseJSONObject);
         } else {
