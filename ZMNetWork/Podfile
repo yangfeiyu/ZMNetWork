@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, "8.0"
+
+xcodeproj 'ZMNetWork.xcodeproj'
+
+target "ZMNetWork" do
+    pod 'AFNetworking','~> 2.0'
+    pod 'AFDownloadRequestOperation'
+    pod 'FCUUID'
+end

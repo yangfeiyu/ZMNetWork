@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E8D51132DE96BABBA29527D /* libPods-ZMNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3F7D17FCCA82DB7EA26D76 /* libPods-ZMNetWork.a */; };
+		A1057E6C1D2D323A004F0798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057E6B1D2D323A004F0798 /* main.m */; };
+		A1057E6F1D2D323A004F0798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057E6E1D2D323A004F0798 /* AppDelegate.m */; };
+		A1057E721D2D323A004F0798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057E711D2D323A004F0798 /* ViewController.m */; };
+		A1057E751D2D323A004F0798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1057E731D2D323A004F0798 /* Main.storyboard */; };
+		A1057E771D2D323A004F0798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1057E761D2D323A004F0798 /* Assets.xcassets */; };
+		A1057E7A1D2D323A004F0798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1057E781D2D323A004F0798 /* LaunchScreen.storyboard */; };
+		A1057E851D2D323A004F0798 /* ZMNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057E841D2D323A004F0798 /* ZMNetWorkTests.m */; };
+		A1057E901D2D323A004F0798 /* ZMNetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057E8F1D2D323A004F0798 /* ZMNetWorkUITests.m */; };
+		A1057EFB1D2D3561004F0798 /* Guid.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EDD1D2D3561004F0798 /* Guid.m */; };
+		A1057EFC1D2D3561004F0798 /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EE01D2D3561004F0798 /* YTKBaseRequest.m */; };
+		A1057EFD1D2D3561004F0798 /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EE21D2D3561004F0798 /* YTKBatchRequest.m */; };
+		A1057EFE1D2D3561004F0798 /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EE41D2D3561004F0798 /* YTKBatchRequestAgent.m */; };
+		A1057EFF1D2D3561004F0798 /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EE61D2D3561004F0798 /* YTKChainRequest.m */; };
+		A1057F001D2D3561004F0798 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EE81D2D3561004F0798 /* YTKChainRequestAgent.m */; };
+		A1057F011D2D3561004F0798 /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EEA1D2D3561004F0798 /* YTKNetworkAgent.m */; };
+		A1057F021D2D3561004F0798 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EEC1D2D3561004F0798 /* YTKNetworkConfig.m */; };
+		A1057F031D2D3561004F0798 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EEE1D2D3561004F0798 /* YTKNetworkPrivate.m */; };
+		A1057F041D2D3561004F0798 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EF01D2D3561004F0798 /* YTKRequest.m */; };
+		A1057F051D2D3561004F0798 /* ZMBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EF21D2D3561004F0798 /* ZMBaseApi.m */; };
+		A1057F061D2D3561004F0798 /* ZMBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EF41D2D3561004F0798 /* ZMBaseRequest.m */; };
+		A1057F071D2D3561004F0798 /* ZMBaseRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EF61D2D3561004F0798 /* ZMBaseRequestParam.m */; };
+		A1057F081D2D3561004F0798 /* ZMBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EF81D2D3561004F0798 /* ZMBaseResponse.m */; };
+		A1057F091D2D3561004F0798 /* ZMBaseServerError.m in Sources */ = {isa = PBXBuildFile; fileRef = A1057EFA1D2D3561004F0798 /* ZMBaseServerError.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1057E811D2D323A004F0798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1057E5F1D2D323A004F0798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1057E661D2D323A004F0798;
+			remoteInfo = ZMNetWork;
+		};
+		A1057E8C1D2D323A004F0798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1057E5F1D2D323A004F0798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1057E661D2D323A004F0798;
+			remoteInfo = ZMNetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E3F7D17FCCA82DB7EA26D76 /* libPods-ZMNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZMNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2B104EA0205694BC7B8D8D /* Pods-ZMNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMNetWork/Pods-ZMNetWork.debug.xcconfig"; sourceTree = "<group>"; };
+		8EDCB30F775072EF66D40046 /* Pods-ZMNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMNetWork/Pods-ZMNetWork.release.xcconfig"; sourceTree = "<group>"; };
+		A1057E671D2D323A004F0798 /* ZMNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1057E6B1D2D323A004F0798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1057E6D1D2D323A004F0798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1057E6E1D2D323A004F0798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1057E701D2D323A004F0798 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1057E711D2D323A004F0798 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1057E741D2D323A004F0798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1057E761D2D323A004F0798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1057E791D2D323A004F0798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1057E7B1D2D323A004F0798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1057E801D2D323A004F0798 /* ZMNetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMNetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1057E841D2D323A004F0798 /* ZMNetWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMNetWorkTests.m; sourceTree = "<group>"; };
+		A1057E861D2D323A004F0798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1057E8B1D2D323A004F0798 /* ZMNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1057E8F1D2D323A004F0798 /* ZMNetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMNetWorkUITests.m; sourceTree = "<group>"; };
+		A1057E911D2D323A004F0798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1057EDC1D2D3561004F0798 /* Guid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guid.h; sourceTree = "<group>"; };
+		A1057EDD1D2D3561004F0798 /* Guid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guid.m; sourceTree = "<group>"; };
+		A1057EDF1D2D3561004F0798 /* YTKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBaseRequest.h; sourceTree = "<group>"; };
+		A1057EE01D2D3561004F0798 /* YTKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBaseRequest.m; sourceTree = "<group>"; };
+		A1057EE11D2D3561004F0798 /* YTKBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequest.h; sourceTree = "<group>"; };
+		A1057EE21D2D3561004F0798 /* YTKBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequest.m; sourceTree = "<group>"; };
+		A1057EE31D2D3561004F0798 /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequestAgent.h; sourceTree = "<group>"; };
+		A1057EE41D2D3561004F0798 /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequestAgent.m; sourceTree = "<group>"; };
+		A1057EE51D2D3561004F0798 /* YTKChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequest.h; sourceTree = "<group>"; };
+		A1057EE61D2D3561004F0798 /* YTKChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequest.m; sourceTree = "<group>"; };
+		A1057EE71D2D3561004F0798 /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequestAgent.h; sourceTree = "<group>"; };
+		A1057EE81D2D3561004F0798 /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequestAgent.m; sourceTree = "<group>"; };
+		A1057EE91D2D3561004F0798 /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
+		A1057EEA1D2D3561004F0798 /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
+		A1057EEB1D2D3561004F0798 /* YTKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkConfig.h; sourceTree = "<group>"; };
+		A1057EEC1D2D3561004F0798 /* YTKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkConfig.m; sourceTree = "<group>"; };
+		A1057EED1D2D3561004F0798 /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkPrivate.h; sourceTree = "<group>"; };
+		A1057EEE1D2D3561004F0798 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
+		A1057EEF1D2D3561004F0798 /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
+		A1057EF01D2D3561004F0798 /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
+		A1057EF11D2D3561004F0798 /* ZMBaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMBaseApi.h; sourceTree = "<group>"; };
+		A1057EF21D2D3561004F0798 /* ZMBaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMBaseApi.m; sourceTree = "<group>"; };
+		A1057EF31D2D3561004F0798 /* ZMBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMBaseRequest.h; sourceTree = "<group>"; };
+		A1057EF41D2D3561004F0798 /* ZMBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMBaseRequest.m; sourceTree = "<group>"; };
+		A1057EF51D2D3561004F0798 /* ZMBaseRequestParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMBaseRequestParam.h; sourceTree = "<group>"; };
+		A1057EF61D2D3561004F0798 /* ZMBaseRequestParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMBaseRequestParam.m; sourceTree = "<group>"; };
+		A1057EF71D2D3561004F0798 /* ZMBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMBaseResponse.h; sourceTree = "<group>"; };
+		A1057EF81D2D3561004F0798 /* ZMBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMBaseResponse.m; sourceTree = "<group>"; };
+		A1057EF91D2D3561004F0798 /* ZMBaseServerError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMBaseServerError.h; sourceTree = "<group>"; };
+		A1057EFA1D2D3561004F0798 /* ZMBaseServerError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMBaseServerError.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1057E641D2D323A004F0798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8D51132DE96BABBA29527D /* libPods-ZMNetWork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1057E7D1D2D323A004F0798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1057E881D2D323A004F0798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A2F1E51712A7AC0404E055B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E3F7D17FCCA82DB7EA26D76 /* libPods-ZMNetWork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1057E5E1D2D323A004F0798 = {
+			isa = PBXGroup;
+			children = (
+				A1057E691D2D323A004F0798 /* ZMNetWork */,
+				A1057E831D2D323A004F0798 /* ZMNetWorkTests */,
+				A1057E8E1D2D323A004F0798 /* ZMNetWorkUITests */,
+				A1057E681D2D323A004F0798 /* Products */,
+				D278B94BE402D636F6EC9E3C /* Pods */,
+				5A2F1E51712A7AC0404E055B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1057E681D2D323A004F0798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1057E671D2D323A004F0798 /* ZMNetWork.app */,
+				A1057E801D2D323A004F0798 /* ZMNetWorkTests.xctest */,
+				A1057E8B1D2D323A004F0798 /* ZMNetWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1057E691D2D323A004F0798 /* ZMNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				A1057ED91D2D3561004F0798 /* ZMServer */,
+				A1057E6D1D2D323A004F0798 /* AppDelegate.h */,
+				A1057E6E1D2D323A004F0798 /* AppDelegate.m */,
+				A1057E701D2D323A004F0798 /* ViewController.h */,
+				A1057E711D2D323A004F0798 /* ViewController.m */,
+				A1057E731D2D323A004F0798 /* Main.storyboard */,
+				A1057E761D2D323A004F0798 /* Assets.xcassets */,
+				A1057E781D2D323A004F0798 /* LaunchScreen.storyboard */,
+				A1057E7B1D2D323A004F0798 /* Info.plist */,
+				A1057E6A1D2D323A004F0798 /* Supporting Files */,
+			);
+			path = ZMNetWork;
+			sourceTree = "<group>";
+		};
+		A1057E6A1D2D323A004F0798 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1057E6B1D2D323A004F0798 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1057E831D2D323A004F0798 /* ZMNetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1057E841D2D323A004F0798 /* ZMNetWorkTests.m */,
+				A1057E861D2D323A004F0798 /* Info.plist */,
+			);
+			path = ZMNetWorkTests;
+			sourceTree = "<group>";
+		};
+		A1057E8E1D2D323A004F0798 /* ZMNetWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1057E8F1D2D323A004F0798 /* ZMNetWorkUITests.m */,
+				A1057E911D2D323A004F0798 /* Info.plist */,
+			);
+			path = ZMNetWorkUITests;
+			sourceTree = "<group>";
+		};
+		A1057ED91D2D3561004F0798 /* ZMServer */ = {
+			isa = PBXGroup;
+			children = (
+				A1057EDA1D2D3561004F0798 /* Tools */,
+				A1057EDE1D2D3561004F0798 /* YTKNetwork */,
+				A1057EF31D2D3561004F0798 /* ZMBaseRequest.h */,
+				A1057EF41D2D3561004F0798 /* ZMBaseRequest.m */,
+				A1057EF71D2D3561004F0798 /* ZMBaseResponse.h */,
+				A1057EF81D2D3561004F0798 /* ZMBaseResponse.m */,
+				A1057EF51D2D3561004F0798 /* ZMBaseRequestParam.h */,
+				A1057EF61D2D3561004F0798 /* ZMBaseRequestParam.m */,
+				A1057EF91D2D3561004F0798 /* ZMBaseServerError.h */,
+				A1057EFA1D2D3561004F0798 /* ZMBaseServerError.m */,
+				A1057EF11D2D3561004F0798 /* ZMBaseApi.h */,
+				A1057EF21D2D3561004F0798 /* ZMBaseApi.m */,
+			);
+			path = ZMServer;
+			sourceTree = "<group>";
+		};
+		A1057EDA1D2D3561004F0798 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A1057EDB1D2D3561004F0798 /* Guid */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A1057EDB1D2D3561004F0798 /* Guid */ = {
+			isa = PBXGroup;
+			children = (
+				A1057EDC1D2D3561004F0798 /* Guid.h */,
+				A1057EDD1D2D3561004F0798 /* Guid.m */,
+			);
+			path = Guid;
+			sourceTree = "<group>";
+		};
+		A1057EDE1D2D3561004F0798 /* YTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A1057EDF1D2D3561004F0798 /* YTKBaseRequest.h */,
+				A1057EE01D2D3561004F0798 /* YTKBaseRequest.m */,
+				A1057EE11D2D3561004F0798 /* YTKBatchRequest.h */,
+				A1057EE21D2D3561004F0798 /* YTKBatchRequest.m */,
+				A1057EE31D2D3561004F0798 /* YTKBatchRequestAgent.h */,
+				A1057EE41D2D3561004F0798 /* YTKBatchRequestAgent.m */,
+				A1057EE51D2D3561004F0798 /* YTKChainRequest.h */,
+				A1057EE61D2D3561004F0798 /* YTKChainRequest.m */,
+				A1057EE71D2D3561004F0798 /* YTKChainRequestAgent.h */,
+				A1057EE81D2D3561004F0798 /* YTKChainRequestAgent.m */,
+				A1057EE91D2D3561004F0798 /* YTKNetworkAgent.h */,
+				A1057EEA1D2D3561004F0798 /* YTKNetworkAgent.m */,
+				A1057EEB1D2D3561004F0798 /* YTKNetworkConfig.h */,
+				A1057EEC1D2D3561004F0798 /* YTKNetworkConfig.m */,
+				A1057EED1D2D3561004F0798 /* YTKNetworkPrivate.h */,
+				A1057EEE1D2D3561004F0798 /* YTKNetworkPrivate.m */,
+				A1057EEF1D2D3561004F0798 /* YTKRequest.h */,
+				A1057EF01D2D3561004F0798 /* YTKRequest.m */,
+			);
+			path = YTKNetwork;
+			sourceTree = "<group>";
+		};
+		D278B94BE402D636F6EC9E3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B104EA0205694BC7B8D8D /* Pods-ZMNetWork.debug.xcconfig */,
+				8EDCB30F775072EF66D40046 /* Pods-ZMNetWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1057E661D2D323A004F0798 /* ZMNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1057E941D2D323A004F0798 /* Build configuration list for PBXNativeTarget "ZMNetWork" */;
+			buildPhases = (
+				286044C3AC4DF68B8CB9D984 /* Check Pods Manifest.lock */,
+				A1057E631D2D323A004F0798 /* Sources */,
+				A1057E641D2D323A004F0798 /* Frameworks */,
+				A1057E651D2D323A004F0798 /* Resources */,
+				8ED70C7D767B6C254083CA8E /* Embed Pods Frameworks */,
+				C26CAB99C7AB8A4F726B2F7F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMNetWork;
+			productName = ZMNetWork;
+			productReference = A1057E671D2D323A004F0798 /* ZMNetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1057E7F1D2D323A004F0798 /* ZMNetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1057E971D2D323A004F0798 /* Build configuration list for PBXNativeTarget "ZMNetWorkTests" */;
+			buildPhases = (
+				A1057E7C1D2D323A004F0798 /* Sources */,
+				A1057E7D1D2D323A004F0798 /* Frameworks */,
+				A1057E7E1D2D323A004F0798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1057E821D2D323A004F0798 /* PBXTargetDependency */,
+			);
+			name = ZMNetWorkTests;
+			productName = ZMNetWorkTests;
+			productReference = A1057E801D2D323A004F0798 /* ZMNetWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1057E8A1D2D323A004F0798 /* ZMNetWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1057E9A1D2D323A004F0798 /* Build configuration list for PBXNativeTarget "ZMNetWorkUITests" */;
+			buildPhases = (
+				A1057E871D2D323A004F0798 /* Sources */,
+				A1057E881D2D323A004F0798 /* Frameworks */,
+				A1057E891D2D323A004F0798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1057E8D1D2D323A004F0798 /* PBXTargetDependency */,
+			);
+			name = ZMNetWorkUITests;
+			productName = ZMNetWorkUITests;
+			productReference = A1057E8B1D2D323A004F0798 /* ZMNetWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1057E5F1D2D323A004F0798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = feiyu;
+				TargetAttributes = {
+					A1057E661D2D323A004F0798 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A1057E7F1D2D323A004F0798 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A1057E661D2D323A004F0798;
+					};
+					A1057E8A1D2D323A004F0798 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A1057E661D2D323A004F0798;
+					};
+				};
+			};
+			buildConfigurationList = A1057E621D2D323A004F0798 /* Build configuration list for PBXProject "ZMNetWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1057E5E1D2D323A004F0798;
+			productRefGroup = A1057E681D2D323A004F0798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1057E661D2D323A004F0798 /* ZMNetWork */,
+				A1057E7F1D2D323A004F0798 /* ZMNetWorkTests */,
+				A1057E8A1D2D323A004F0798 /* ZMNetWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1057E651D2D323A004F0798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1057E7A1D2D323A004F0798 /* LaunchScreen.storyboard in Resources */,
+				A1057E771D2D323A004F0798 /* Assets.xcassets in Resources */,
+				A1057E751D2D323A004F0798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1057E7E1D2D323A004F0798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1057E891D2D323A004F0798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		286044C3AC4DF68B8CB9D984 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED70C7D767B6C254083CA8E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZMNetWork/Pods-ZMNetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C26CAB99C7AB8A4F726B2F7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZMNetWork/Pods-ZMNetWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1057E631D2D323A004F0798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1057EFF1D2D3561004F0798 /* YTKChainRequest.m in Sources */,
+				A1057F001D2D3561004F0798 /* YTKChainRequestAgent.m in Sources */,
+				A1057F021D2D3561004F0798 /* YTKNetworkConfig.m in Sources */,
+				A1057E721D2D323A004F0798 /* ViewController.m in Sources */,
+				A1057F061D2D3561004F0798 /* ZMBaseRequest.m in Sources */,
+				A1057F051D2D3561004F0798 /* ZMBaseApi.m in Sources */,
+				A1057EFD1D2D3561004F0798 /* YTKBatchRequest.m in Sources */,
+				A1057E6F1D2D323A004F0798 /* AppDelegate.m in Sources */,
+				A1057F091D2D3561004F0798 /* ZMBaseServerError.m in Sources */,
+				A1057F081D2D3561004F0798 /* ZMBaseResponse.m in Sources */,
+				A1057EFB1D2D3561004F0798 /* Guid.m in Sources */,
+				A1057F031D2D3561004F0798 /* YTKNetworkPrivate.m in Sources */,
+				A1057EFC1D2D3561004F0798 /* YTKBaseRequest.m in Sources */,
+				A1057EFE1D2D3561004F0798 /* YTKBatchRequestAgent.m in Sources */,
+				A1057F071D2D3561004F0798 /* ZMBaseRequestParam.m in Sources */,
+				A1057E6C1D2D323A004F0798 /* main.m in Sources */,
+				A1057F041D2D3561004F0798 /* YTKRequest.m in Sources */,
+				A1057F011D2D3561004F0798 /* YTKNetworkAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1057E7C1D2D323A004F0798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1057E851D2D323A004F0798 /* ZMNetWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1057E871D2D323A004F0798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1057E901D2D323A004F0798 /* ZMNetWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1057E821D2D323A004F0798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1057E661D2D323A004F0798 /* ZMNetWork */;
+			targetProxy = A1057E811D2D323A004F0798 /* PBXContainerItemProxy */;
+		};
+		A1057E8D1D2D323A004F0798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1057E661D2D323A004F0798 /* ZMNetWork */;
+			targetProxy = A1057E8C1D2D323A004F0798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1057E731D2D323A004F0798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1057E741D2D323A004F0798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1057E781D2D323A004F0798 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1057E791D2D323A004F0798 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1057E921D2D323A004F0798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1057E931D2D323A004F0798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1057E951D2D323A004F0798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2B104EA0205694BC7B8D8D /* Pods-ZMNetWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZMNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.ZMNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1057E961D2D323A004F0798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDCB30F775072EF66D40046 /* Pods-ZMNetWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZMNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.ZMNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1057E981D2D323A004F0798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZMNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.ZMNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMNetWork.app/ZMNetWork";
+			};
+			name = Debug;
+		};
+		A1057E991D2D323A004F0798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZMNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.ZMNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMNetWork.app/ZMNetWork";
+			};
+			name = Release;
+		};
+		A1057E9B1D2D323A004F0798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZMNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.ZMNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZMNetWork;
+			};
+			name = Debug;
+		};
+		A1057E9C1D2D323A004F0798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZMNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.ZMNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZMNetWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1057E621D2D323A004F0798 /* Build configuration list for PBXProject "ZMNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1057E921D2D323A004F0798 /* Debug */,
+				A1057E931D2D323A004F0798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1057E941D2D323A004F0798 /* Build configuration list for PBXNativeTarget "ZMNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1057E951D2D323A004F0798 /* Debug */,
+				A1057E961D2D323A004F0798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1057E971D2D323A004F0798 /* Build configuration list for PBXNativeTarget "ZMNetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1057E981D2D323A004F0798 /* Debug */,
+				A1057E991D2D323A004F0798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1057E9A1D2D323A004F0798 /* Build configuration list for PBXNativeTarget "ZMNetWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1057E9B1D2D323A004F0798 /* Debug */,
+				A1057E9C1D2D323A004F0798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1057E5F1D2D323A004F0798 /* Project object */;
+}
