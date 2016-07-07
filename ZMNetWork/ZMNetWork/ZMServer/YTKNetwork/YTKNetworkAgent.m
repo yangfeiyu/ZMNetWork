@@ -21,7 +21,6 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-
 #import "YTKNetworkAgent.h"
 #import "YTKNetworkConfig.h"
 #import "YTKNetworkPrivate.h"
@@ -286,7 +285,7 @@
         }
     }
     // 打印请求结果，方便调试
-    if ([YTKNetworkConfig sharedInstance].requestLogEnabled) {
+    if (YES) {
         if ([requestMethod isEqualToString:@"Get"]) {
             NSLog(@"Finished request: %@ - Method:%@ - Arguments:%@ - Response:%@", [YTKNetworkPrivate urlStringWithOriginUrlString:[self buildRequestUrl:request] appendParameters:request.requestArgument], requestMethod, request.requestArgument, request.responseJSONObject);
         } else {

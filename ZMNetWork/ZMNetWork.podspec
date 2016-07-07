@@ -134,5 +134,5 @@ Pod::Spec.new do |s|
     s.dependency "AFNetworking", "~> 2.0"
     s.dependency "AFDownloadRequestOperation"
     s.dependency "FCUUID"
-
+    
 end

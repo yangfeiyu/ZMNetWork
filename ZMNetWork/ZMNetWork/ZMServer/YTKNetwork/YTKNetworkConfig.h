@@ -40,7 +40,6 @@
 @property (strong, nonatomic) NSString *cdnUrl;
 @property (strong, nonatomic, readonly) NSArray *urlFilters;
 @property (strong, nonatomic, readonly) NSArray *cacheDirPathFilters;
-@property (nonatomic, assign) BOOL requestLogEnabled;
 
 - (void)addUrlFilter:(id<YTKUrlFilterProtocol>)filter;
 - (void)addCacheDirPathFilter:(id <YTKCacheDirPathFilterProtocol>)filter;
