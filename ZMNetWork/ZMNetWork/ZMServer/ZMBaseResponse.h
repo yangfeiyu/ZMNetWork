@@ -12,6 +12,6 @@
 
 @property (nonatomic, copy, readonly) NSString *code;
 @property (nonatomic, copy, readonly) NSString *msg;
-@property (nonatomic, copy, readonly) NSDictionary *data;
+@property (nonatomic, copy, readonly) id data;
 
 @end
